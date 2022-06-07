@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression" duration-ms="25083" started-at="2022-06-07T01:47:01 CDT" finished-at="2022-06-07T01:47:27 CDT">
+  <suite name="Regression" duration-ms="25313" started-at="2022-06-07T01:59:38 CDT" finished-at="2022-06-07T02:00:03 CDT">
     <groups>
     </groups>
-    <test name="All Functionalities" duration-ms="25083" started-at="2022-06-07T01:47:01 CDT" finished-at="2022-06-07T01:47:27 CDT">
+    <test name="All Functionalities" duration-ms="25313" started-at="2022-06-07T01:59:38 CDT" finished-at="2022-06-07T02:00:03 CDT">
       <class name="scripts.CarsTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.CarsTest@204f30ec]" name="setup" is-config="true" duration-ms="2404" started-at="2022-06-07T01:47:01 CDT" finished-at="2022-06-07T01:47:04 CDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.CarsTest@204f30ec]" name="setup" is-config="true" duration-ms="2674" started-at="2022-06-07T01:59:38 CDT" finished-at="2022-06-07T01:59:41 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testCarSignInPage()[pri:1, instance:scripts.CarsTest@204f30ec]" name="testCarSignInPage" duration-ms="5257" started-at="2022-06-07T01:47:04 CDT" description="Test Case 1: Validate Cars.com Sign in page form" finished-at="2022-06-07T01:47:09 CDT">
+        <test-method status="PASS" signature="testCarSignInPage()[pri:1, instance:scripts.CarsTest@204f30ec]" name="testCarSignInPage" duration-ms="5747" started-at="2022-06-07T01:59:41 CDT" description="Test Case 1: Validate Cars.com Sign in page form" finished-at="2022-06-07T01:59:46 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCarSignInPage -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.CarsTest@204f30ec]" name="teardown" is-config="true" duration-ms="1023" started-at="2022-06-07T01:47:09 CDT" finished-at="2022-06-07T01:47:10 CDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.CarsTest@204f30ec]" name="teardown" is-config="true" duration-ms="991" started-at="2022-06-07T01:59:46 CDT" finished-at="2022-06-07T01:59:47 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.CarsTest@204f30ec]" name="setup" is-config="true" duration-ms="1199" started-at="2022-06-07T01:47:10 CDT" finished-at="2022-06-07T01:47:11 CDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.CarsTest@204f30ec]" name="setup" is-config="true" duration-ms="1204" started-at="2022-06-07T01:59:47 CDT" finished-at="2022-06-07T01:59:49 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testValidateSocialMedia()[pri:2, instance:scripts.CarsTest@204f30ec]" name="testValidateSocialMedia" duration-ms="4899" started-at="2022-06-07T01:47:11 CDT" description="Validate Cars.com Sign in page social media section" finished-at="2022-06-07T01:47:16 CDT">
+        <test-method status="PASS" signature="testValidateSocialMedia()[pri:2, instance:scripts.CarsTest@204f30ec]" name="testValidateSocialMedia" duration-ms="5021" started-at="2022-06-07T01:59:49 CDT" description="Validate Cars.com Sign in page social media section" finished-at="2022-06-07T01:59:54 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidateSocialMedia -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.CarsTest@204f30ec]" name="teardown" is-config="true" duration-ms="1048" started-at="2022-06-07T01:47:16 CDT" finished-at="2022-06-07T01:47:17 CDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.CarsTest@204f30ec]" name="teardown" is-config="true" duration-ms="1016" started-at="2022-06-07T01:59:54 CDT" finished-at="2022-06-07T01:59:55 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.CarsTest@204f30ec]" name="setup" is-config="true" duration-ms="1533" started-at="2022-06-07T01:47:17 CDT" finished-at="2022-06-07T01:47:19 CDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.CarsTest@204f30ec]" name="setup" is-config="true" duration-ms="1222" started-at="2022-06-07T01:59:55 CDT" finished-at="2022-06-07T01:59:56 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testInvalidCredentials()[pri:3, instance:scripts.CarsTest@204f30ec]" name="testInvalidCredentials" duration-ms="6544" started-at="2022-06-07T01:47:19 CDT" description="Validate user cannot sign in to Cars.com with invalid credentials" finished-at="2022-06-07T01:47:25 CDT">
+        <test-method status="PASS" signature="testInvalidCredentials()[pri:3, instance:scripts.CarsTest@204f30ec]" name="testInvalidCredentials" duration-ms="6320" started-at="2022-06-07T01:59:56 CDT" description="Validate user cannot sign in to Cars.com with invalid credentials" finished-at="2022-06-07T02:00:02 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidCredentials -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.CarsTest@204f30ec]" name="teardown" is-config="true" duration-ms="1138" started-at="2022-06-07T01:47:25 CDT" finished-at="2022-06-07T01:47:27 CDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.CarsTest@204f30ec]" name="teardown" is-config="true" duration-ms="1078" started-at="2022-06-07T02:00:02 CDT" finished-at="2022-06-07T02:00:03 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

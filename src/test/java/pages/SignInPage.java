@@ -22,9 +22,6 @@ public class SignInPage {
     @FindBy(css = "div[class='sds-input-container']>input")
     public static WebElement emailInputBox;
 
-    @FindBy(css = "div[class='sds-disclaimer ']>a")
-    public WebElement privacy;
-
     @FindBy(css = "label[for='email']")
     public static WebElement emailLabelBox;
 
@@ -40,11 +37,11 @@ public class SignInPage {
     @FindBy(css = "p[class='sds-helper-text']")
     public static WebElement warningInputBox;
 
-    @FindBy(partialLinkText = "Forgot password?")
+    @FindBy(css = "a[href='/forgot_password/?email=']")
     public static WebElement forgotPassword;
 
-    @FindBy(xpath = "//div[@class='sds-disclaimer ']")
-    public static WebElement bySigningIn;
+    @FindBy(css = ".sds-disclaimer ")
+    public static WebElement tos; //Terms of Service
 
     @FindBy(css = "div[class='sds-field']>button")
     public static WebElement purpleSignInButton;

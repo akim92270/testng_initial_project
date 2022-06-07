@@ -49,9 +49,9 @@ public class CarsTest extends Base{
         Assert.assertTrue(SignInPage.forgotPassword.isEnabled());
         Assert.assertEquals(SignInPage.forgotPassword.getText(), "Forgot password?"); //And user should be able to see a link as “Forgot password?” under the Password input box
 
-        Assert.assertTrue(SignInPage.bySigningIn.isDisplayed());
-        Assert.assertTrue(SignInPage.bySigningIn.isEnabled());
-        Assert.assertEquals(SignInPage.bySigningIn.getText(), "By signing in to your profile, you agree to our  Privacy Statement  and  Terms of Service.");//And user should be able to see “By signing in to your profile, you agree to our  Privacy Statement  and  Terms of ServicFore.”
+        Assert.assertTrue(SignInPage.tos.isDisplayed());
+        Assert.assertTrue(SignInPage.tos.isEnabled());
+        Assert.assertEquals(SignInPage.tos.getText(), "By signing in to your profile, you agree to our  Privacy Statement  and  Terms of Service.");//And user should be able to see “By signing in to your profile, you agree to our  Privacy Statement  and  Terms of ServicFore.”
 
         Assert.assertTrue(SignInPage.purpleSignInButton.isDisplayed());
         Assert.assertTrue(SignInPage.purpleSignInButton.isEnabled());
